@@ -1,0 +1,30 @@
+C# vs .NET 
+
+**C# is a programming language.
+**.NET is a programming framework.
+
+
+
+.NET relies on
+CLR (Common Language Run-time)
+
+&
+
+Class Libary
+
+Architecture of .NET Applications
+
+Our First C# Application
+
+
+****C# History****
+C/C++ were the original.
+Borrowed Java communtiy. Not translated into compiler code but instead into bytecode.
+Intermediate Language code.
+CLR application that is sitting in the memory that is supposed to translate the IL code into the Machine code. This is referred to JIT. Just in Time.
+As long as a machine has a CLR it can run a C# application.
+
+****Architecture of .NET Applications*****
+Uses Classes as building blocks.
+Class is a container that has a container that has Data/Attributes and Methods/Functions.
+As classes in applications grow, a container referred to as a Namespace is used to group together similar classes. An Assembly is the next level up. It can be a Dynamically Linked Library or an Executable. DLL or EXE.
