@@ -30,5 +30,37 @@ namespace _02_Variables
 
         //string... "names"
         //char stores characters such as @. Ex. char at = '@'
+
+
+        //Primitive Data Types
+        //sbyte = it portrays whole numbers from -128 to 127. stands for signed byte.
+        //short = stores whole numbers from -32767 to 32767.
+        //int = stores whole numbers from -2147483648 to 2147483647.
+        //long = stores whole numbers from -9223327036854775808 to 9223372036854775807.
+
+        //When to use each data type. It is recommended to use the smallest one based on your data.
+
+        //float x 99.99f;
+        // allows decimals and a range from 1.55 x 10 ^-45 to 3.4 x 10^38 7-digit precision.
+        //the f at the end of the number is to prevent the program from detecting a double value, therefore the number will be correctly read as having a decimal.
+        
+        //double x =1.5;
+        //allows decimals and an even higher range than the float. 15-digit precision. Adding an f to this data type will result in the same problem as the float.
+
+        //decimal x = 1.5;
+        //allows decimals and an even higher range than the double. 28-digit precision.
+
+
+        //Float is mostly used in graphics libraries (high demands for processing powers) Visual Libraries
+        //Double is mostly used for real world values (except money calculations) Not Money
+        //Decimal is mostly used in financial applications (high level of accuracy) Money
+    
+        //bool switch = false;
+        //char singleLetter = 'A';
+        //only allows a single literal letter or character.
+        //string... you already now this.
+    
+    
+    
     }
 }
